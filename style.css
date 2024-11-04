@@ -1,0 +1,45 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.container {
+  flex-grow: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.nav-icon {
+  color: #333;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-icon:hover {
+  color: #007bff;
+}
